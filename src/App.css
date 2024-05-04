@@ -2,19 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #0d0d0d; /* 宇宙の暗黒空間をイメージ */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +13,95 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+  background-color: #0d0d0d; /* ヘッダーと同様の背景色 */
+  padding: 2rem 0;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.social-link {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  color: #0077cc; /* マインクラフトの公式サイトと同じ色に設定 */
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  margin-top: 1rem;
+}
+
+/* 既存のスタイルは省略 */
+
+/* 小さな星のアニメーション */
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    opacity: 1;
+    transform: translateY(0);
   }
+  100% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+}
+/* 小さな星のスタイル */
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #000;
+}
+
+/* セクションのスタイル */
+.section {
+  background-color: #222; /* セクションの背景色を黒に近い灰色に設定 */
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white; /* セクションのタイトルを白色に設定 */
+}
+
+.feature {
+  color: white;
+}
+
+.section1 {
+  color: white;
 }
