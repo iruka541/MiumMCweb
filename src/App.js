@@ -35,11 +35,11 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Twitter
+            X(停止中)
           </a>
           <a
             className="social-link"
-            href="#"
+            href="https://discord.gg/wug8fGaTQD"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -47,11 +47,11 @@ function App() {
           </a>
           <a
             className="social-link"
-            href="#"
+            href="https://sites.google.com/view/miummc/home"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Forums
+            旧site
           </a>
         </div>
       </header>
@@ -64,15 +64,16 @@ function App() {
         <div className="feature">
           <h3>公式キャラクターもいる！</h3>
           <p>公式コミュニティに、公式キャラのAIがいるので、会話できちゃう！</p>
+          <p>※5月13日にサービス終了予定</p>
         </div>
         {/* 他の特徴を追加 */}
       </section>
       <section className="section">
         <h2 className="section-title">About Us</h2>
         <p className="section1">開発チームはを以下に紹介します！</p>
-        <p className="section1">総合開発者・責任者 : rakku</p>
-        <p className="section1">デベロッパー : sakana_11, K_nana</p>
-        <p className="section1">副管理者 : Lz6_, ぱに, とくぽん</p>
+        <p className="section1">Owner : rakku</p>
+        <p className="section1">Dev : sakana_11, K_nana</p>
+        <p className="section1">Admin : Lz6_, ぱに, とくぽん</p>
       </section>
       {/* 他のセクションを追加 */}
       <footer className="App-footer">
