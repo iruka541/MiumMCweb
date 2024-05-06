@@ -47,11 +47,11 @@ function App() {
           </a>
           <a
             className="social-link"
-            href="https://sites.google.com/view/miummc/home"
+            href="https://sites.google.com/view/miummc/document/mium-sora-rule"
             target="_blank"
             rel="noopener noreferrer"
           >
-            旧site
+            NanaSora license
           </a>
         </div>
       </header>
@@ -72,7 +72,7 @@ function App() {
         <h2 className="section-title">About Us</h2>
         <p className="section1">開発チームはを以下に紹介します！</p>
         <p className="section1">Owner : rakku</p>
-        <p className="section1">Dev : sakana_11, K-nana</p>
+        <p className="section1">Dev : sakana_11, K-Nana</p>
         <p className="section1">Admin : Lz6_, ぱに, とくぽん</p>
       </section>
       {/* 他のセクションを追加 */}
