@@ -51,7 +51,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            NanaSora license
+            そらちゃんに関する規則
           </a>
         </div>
       </header>
