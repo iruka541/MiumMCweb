@@ -31,14 +31,6 @@ function App() {
         <div className="social-links">
           <a
             className="social-link"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            X(停止中)
-          </a>
-          <a
-            className="social-link"
             href="https://discord.gg/wug8fGaTQD"
             target="_blank"
             rel="noopener noreferrer"
@@ -62,9 +54,8 @@ function App() {
           <p>このサーバーは、なんと宇宙に行けちゃいます！宇宙戦争も夢じゃないかも！ </p>
         </div>
         <div className="feature">
-          <h3>公式キャラクターもいる！</h3>
-          <p>公式コミュニティに、公式キャラのAIがいるので、会話できちゃう！</p>
-          <p>※5月13日にサービス終了予定</p>
+          <h3>新プロジェクト進行中！</h3>
+          <p>公開までお楽しみに...</p>
         </div>
         {/* 他の特徴を追加 */}
       </section>
